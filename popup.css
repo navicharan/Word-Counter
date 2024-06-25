@@ -1,0 +1,35 @@
+body {
+    width: 50px;
+      height: 30px;
+      overflow: hidden;
+  font-family: Arial, sans-serif;
+  padding: 5px;
+  background-color: #f7f5f5ca;
+}
+
+.btn {
+  background-color: #3ba2bcb8; /* Green background */
+  border: none; /* Remove borders */
+  color: rgb(0, 0, 0); /* White text */
+  /* padding: 15px 32px; Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline; /* Get it to display as a block */
+  font-size: 14px; /* Increase font size */
+  margin: 1px 1px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 3px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s; /* Animation */
+}
+
+.btn:hover {    
+  background-color: #3ba2bcec; /* Darker green background on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+#result {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+}
